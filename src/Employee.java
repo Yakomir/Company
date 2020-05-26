@@ -1,6 +1,6 @@
 public class Employee
 {
-    // прописываем поля обьекта
+    // поля обьекта
     String fio;
     String position;
     String email;
@@ -8,7 +8,7 @@ public class Employee
     int salary;
     int age;
 
-    // создаём конструктор обьектов "сотрудник"
+    // конструктор объектов "сотрудник"
     public Employee (String fio, String position, String email, String phone, int salary, int age)
     {
         this.fio = fio;
@@ -19,13 +19,13 @@ public class Employee
         this.age = age;
     }
 
-    // создаём геттер для переменной "возраст"
+    // геттер для переменной "возраст"
     public int getAge()
     {
         return age;
     }
 
-    // создаём форму вывода данных по сотрудникам
+    // форма для вывода данных сотрудников
     public void printInfo()
     {
         System.out.println("fio: " + fio + " position: " + position + " email: " + email + " salary: " + salary + " age: " + age);
